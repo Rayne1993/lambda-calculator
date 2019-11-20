@@ -1,22 +1,80 @@
 .container {
-    background-color: #c00025;
+    background-color: pink;
     width: 100%;
     max-width: 550px;
+    height: 710px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    position: relative;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    margin: 15px;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+    background-color: rgb(231, 22, 151);
+    border-radius: 10px;
+}
+
+.specials-container {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: 0 auto;
+
+}
+
+.special-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid steelblue;
+    font-size: 1.5rem;
+    color: black;
+    background-color: rgb(1, 245, 253);
+    box-shadow: 1px 5px black; 
+}
+
+.numbers-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-around;
+    margin: 1% 1%;
+    position: relative;
+}
+.number-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(10, 207, 76);
+    font-size: 1.5rem;
+    color: black;
+    background-color: rgb(10, 238, 131);
+    box-shadow: 1px 5px black;
+    margin-top: 2%;
+}
+.zero-button {
+    width: 220px;
+    border-radius: 50px;
+    padding: 10px;
+}
+.operator-button {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid teal;
+    font-size: 2rem;
+    color: black;
+    background-color: rgb(250, 246, 7);
+    box-shadow: 1px 5px black;
+    margin: 25px 0 10px 30px;
+}
+.operators-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: absolute;
+    top: 180px;
+    left: 400px;
+}

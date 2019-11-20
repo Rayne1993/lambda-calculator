@@ -5,7 +5,7 @@ import logo from "../../Img/Lambda_Logo_white.png";
 const Logo = () => {
   return (
     <div className="logo-container">
-      <img className="logo" src={logo} alt="Lambda's logo" />
+      <img style={{paddingTop: '5px', paddingLeft: '20px'}}className="logo" src={logo} alt="Lambda's logo" />
     </div>
   );
 };
